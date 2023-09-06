@@ -50,7 +50,6 @@ function App() {
               ref={passwordRef}
             />
             <button
-            //  onClick={()=>{setButton('Coppied')}}
             onClick={copyPassword}
              className="bg-orange-500 hover:bg-orange-600 text-gray-50 py-1 px-4 rounded-r-md shrink-0 shadow-md outline-none">
               {button}
